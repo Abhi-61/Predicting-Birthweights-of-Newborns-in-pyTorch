@@ -6,10 +6,13 @@ through an extensive training process with the help of a mathematical framework 
 ## Dataset
 The National Center of Health Statistics of the United States Government published the dataset used in this project in 2018.
 The dataset contains millions of records and many features/columns, but only a few were needed to make powerful predictions.
+The dataset can be downloaded from this repository or can be viewed online along with the user guide at the website: https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm#Tools 
 
 ## Exploratory Data Analysis
 Exploratory Data Analysis revealed that the dataset was not clean enough for our needs and required further refinement, which is what the first half of the notebook does.
 Unnecessary columns were removed, features were normalized, and missing values were replaced with the most appropriate central statistic.
+Some features had to be converted into numerical datatypes to be compatible with the regression model.
+The entire procedure, including the reasoning for each decision process, has been included in the notebook.
 
 ## The model
 The Machine Learning model architecture consisted of 4 fully connected linear layers, including 1 output layer.
